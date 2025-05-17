@@ -48,110 +48,19 @@ gantt
   axisFormat %b %Y
   
   CellzV2 Console        :active, a2, 2023-09-02, 10d
-  Clonstify              :done, a4, 2023-07-30, 2d
-  MagicCalculator        :done, a5, 2023-08-04, 4d
-  SRT Simulator          :crit, b1, 2023-12-02, 4d
-  Data Structures CW     :crit, b2, 2023-12-15, 2024-01-03
+  Clonstify              :active, a4, 2023-07-30, 2d
+  MagicCalculator        :active, a5, 2023-08-04, 4d
+  SRT Simulator          :active, b1, 2023-12-02, 4d
+  Data Structures CW     :active, b2, 2023-12-15, 2024-01-03
   S. Sohail Hospital     :active, c1, 2024-02-28, 2024-06-03
-  Provider_v2            :done, c2, 2024-01-23, 2d
-  Maize Beta             :crit, c3, 2024-04-04, 2024-05-01
-  State_Manag            :done, c4, 2024-06-01, 4d
+  Provider_v2            :active, c2, 2024-01-23, 2d
+  Maize Beta             :active, c3, 2024-04-04, 2024-05-01
+  State_Manag            :active, c4, 2024-06-01, 4d
   AI_ES                 :active, c5, 2024-12-06, 2025-02-17
-  Cellz Final            :active, c5, 2024-07-01, 2025-05-01
+  Cellz Final(released)            :crit, c5, 2024-07-01, 2025-05-01
 ```
 
-# AI_ES (AI Assistant Embedded Systems)
 
-## Project Links
-
-- **Name:** AI_ES (AI Assistant Embedded Systems)
-- **GitHub:** [github.com/HaseebKahn365/ai_es](https://github.com/HaseebKahn365/ai_es)
-- **Timeline:** December 6, 2024 – February 17, 2025
-
-## Overview
-
-Cross-platform Flutter app that provides voice control interface for AI assistant services. Designed for users needing voice interaction with custom AI backends like FastAI-based LLMs.
-
-### Core Goals
-
-- Voice interface for AI services
-- Customizable backend endpoints
-- Speech-to-text & text-to-speech interaction
-- Multi-platform support (Android, iOS, web, desktop)
-
-## Core Functionality
-
-### Screens & Flow
-
-- **VoiceControlScreen:** Main interaction UI with voice recognition
-- **SettingsScreen:** Configure backend endpoints
-
-### Architecture Layers
-
-- **UI Layer:** Screens & widgets
-- **State Management:** Provider pattern (AIAssistantProvider)
-- **Service Layer:** Speech recognition, HTTP communication
-
-### Data Handling
-
-- Real-time behavior (requires internet)
-- In-memory endpoint URL storage
-- Error handling via try-catch & provider states
-- Navigation via MaterialPageRoute
-- Custom animations (ListeningButton)
-
-## Key Features
-
-- Voice Recognition using speech_to_text
-- Text-to-Speech via flutter_tts
-- Configurable backend endpoints
-- Visual feedback with animated elements
-- Light/dark theme support
-
-## Technical Implementation
-
-### Flutter/Dart Skills
-
-- State Management: Provider + ChangeNotifier
-- Routing: MaterialPageRoute
-- Async Programming: async/await
-- Custom Widgets: Animated components
-
-### Architecture
-
-- Pattern: Simplified MVVM
-- Folder Structure: Flat organization
-- Modular design for testability
-
-### Third-Party Packages
-
-- speech_to_text (v7.0.0)
-- flutter_tts (v4.2.0)
-- http (v1.2.2)
-- provider (v6.1.2)
-
-## Advanced Features
-
-- LLM Integration with configurable endpoints
-- Cross-platform support (Android minSdk 24, iOS, web, desktop)
-
-## Technical Challenges & Solutions
-
-1. **Speech Recognition**
-   - Solution: speech_to_text with error handling
-2. **Backend Flexibility**
-   - Solution: Configurable endpoints + JSON standardization
-3. **User Feedback**
-   - Solution: Animations & loading states
-
-## Developer Role
-
-I Abdul Haseeb implemented all aspects:
-
-- Core architecture & state management
-- Speech & TTS functionality
-- UI design & backend communication
-- Continuous development over 3 months
 
 # CellzV2Console
 
@@ -1219,7 +1128,7 @@ The application has some separation of concerns with business logic isolated in 
 - **flutter_animate**: Used for UI animations to enhance user experience.
 - **fluentui_system_icons**: Used for enhanced UI icons.
 - **url_launcher**: Used for linking to external resources (GitHub).  
-`pubspec.yaml:38-44`  
+
 `main.dart:317`
 
 ## 10. Advanced Concepts:
@@ -1364,7 +1273,7 @@ Implements the same model using MobX with observable properties, actions, and au
 - **Provider**: Used for the core university system and one implementation of the Parent-Category-Activity model  
 - **GetX**: Implemented for reactive state management with simplified syntax  
 - **MobX**: Demonstrated with code generation for reduced boilerplate  
-`pubspec.yaml:38-42`
+
 
 ### Routing:
 Uses Flutter's built-in `Navigator` for screen transitions with `MaterialPageRoute`. GetX implementation also demonstrates GetX's simplified navigation.  
@@ -1416,25 +1325,25 @@ Organized by feature and state management approach:
 ## 9. Third-Party Tools & Packages:
 
 - **Provider (^6.1.2)**: Used for implementing the core state management pattern with `ChangeNotifier`.  
-`pubspec.yaml:39`
+
 
 - **GetX (^4.6.6)**: Used for implementing reactive state management with simplified syntax and built-in dependency injection.  
-`pubspec.yaml:40`
+
 
 - **MobX (^2.0.7)** and **flutter_mobx (^2.0.6)**: Used for implementing reactive state management with observable properties and actions.  
-`pubspec.yaml:41-42`
+
 
 - **build_runner (^2.1.11)** and **mobx_codegen (^2.0.7)**: Development dependencies for generating MobX boilerplate code.  
-`pubspec.yaml:47-48`
+
 
 - **Flame (^1.15.0)**: Game development framework, though its usage is not evident in the provided code snippets.  
-`pubspec.yaml:38`
+
 
 ## 10. Advanced Concepts:
 
 ### Multiple state management implementations:
 The project demonstrates three different state management approaches (Provider, GetX, MobX) implementing the same functionality, allowing for direct comparison of their strengths and weaknesses.  
-`pubspec.yaml:39-42`
+
 
 ### Code generation:
 Uses `build_runner` and `mobx_codegen` for generating MobX boilerplate code, demonstrating advanced build processes.  
@@ -1457,7 +1366,7 @@ Implements complex nested data structures with reactive updates at multiple leve
 
 ### Challenge 3: MobX code generation setup
 **Solution**: Configured `build_runner` and `mobx_codegen` to generate the necessary boilerplate code for MobX observables and actions.  
-`pubspec.yaml:47-48`  
+
 `mobix_buisiness_logic.g.dart:31-40`
 
 ## 12. My Role:
@@ -1693,36 +1602,36 @@ The app demonstrates modularity through separation of concerns, with distinct cl
 
 #### Firebase Suite:
 - `firebase_core`, `cloud_firestore`, `firebase_storage`: Used for cloud data storage, synchronization, and image storage  
-`pubspec.yaml:39-44`
+
 
 #### State Management:
 - `flutter_riverpod`: Provides reactive state management throughout the app  
-`pubspec.yaml:53`
+
 
 #### UI Enhancement:
 - `flutter_animate`: Implements smooth animations for UI elements
 - `fluentui_system_icons`: Provides consistent icon set
 - `fl_chart`: Creates interactive charts for data visualization  
-`pubspec.yaml:38`  
-`pubspec.yaml:52`  
-`pubspec.yaml:56`
+
+
+
 
 #### Media Handling:
 - `image_picker`, `image_cropper`: For selecting and editing images
 - `cached_network_image`: Efficiently loads and caches images from Firebase  
-`pubspec.yaml:41-45`
+
 
 #### Data Export:
 - `csv`, `syncfusion_flutter_xlsio`: For exporting activity data to CSV and Excel formats
 - `flutter_share`: Enables sharing exported files  
-`pubspec.yaml:51`  
-`pubspec.yaml:58-59`
+
+
 
 #### Local Storage:
 - `shared_preferences`: Stores app settings and user preferences
 - `path_provider`, `path`: Manages file system access for data export  
-`pubspec.yaml:48-49`  
-`pubspec.yaml:57`
+
+
 
 ### 10. Advanced Concepts:
 
@@ -1769,6 +1678,9 @@ Based on the git blame information, it appears that Abdul Haseeb was the primary
 - This comprehensive overview is based on the available code snippets and wiki pages from the Workouts_V3 repository.
 - The timeline is inferred from commit dates spanning from November 2023 to June 2024.
 - The app demonstrates a well-structured Flutter application with cloud synchronization, local persistence, and advanced visualization features.
+
+
+
 
 
 
