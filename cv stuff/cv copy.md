@@ -570,7 +570,7 @@ Challenge: Sharing state between disconnected components.
 Solution: Implemented Provider pattern to manage and share the currently selected track. main.dart:20 tracks_list.dart:47-48
 
 12. My Role:
-Based on the git blame information, it appears that Abdul Haseeb (GitHub username: HaseebKahn365) was the sole contributor to this project, implementing all aspects of the application between July 30-31, 2023. playlist_screen.dart:87
+ Abdul Haseeb (GitHub username: HaseebKahn365) was the sole contributor to this project, implementing all aspects of the application between July 30-31, 2023. playlist_screen.dart:87
 
 Notes
 This analysis is based on the code snippets provided, which appear to be from a Flutter-based Spotify UI clone called Clonstify. The repository shows commits from July 2023 by a single contributor (HaseebKahn365). The app demonstrates responsive design techniques, state management with Provider, and custom widget implementation in Flutter. The application is primarily a UI clone without actual music streaming functionality.
@@ -803,7 +803,7 @@ Integrating Multiple Data Structures in Application Systems
 Solution: Clear interfaces between components and thoughtful system design
 The Smart Home system demonstrates how different data structures can work together
 12. Role in the Project:
-Based on the git blame information, Abdul Haseeb appears to be the primary (or sole) contributor to this repository, implementing all the data structures and application systems shown in the snippets.
+ Abdul Haseeb is the the primary (or sole) contributor to this repository, implementing all the data structures and application systems shown in the snippets.
 
 Notes
 This template has been filled out based on the available code snippets and wiki pages from the HaseebKahn365/Data-Structures-CW repository. The repository appears to be a collection of data structures and algorithms implementations in C++, likely created as coursework or educational material. The information about timeline is based on git commit timestamps in the provided snippets, which show activity from December 2023 to January 2024.
@@ -1013,7 +1013,7 @@ Challenge: Managing data consistency between local SQLite storage and cloud Fire
 Solution: Implemented a clear data flow where game results are first saved locally, then selectively synchronized to Firestore based on ranking eligibility, with careful transaction management to prevent data corruption. README.md:54-67
 
 12. My Role:
-Based on the git blame information, it appears that Abdul Haseeb was the primary (or sole) developer on this project, implementing all aspects from the initial setup to the final features. The commits span from April 4, 2024 to May 1, 2024, showing consistent development throughout this period. README.md:1-3
+ Abdul Haseeb was the primary (or sole) developer on this project, implementing all aspects from the initial setup to the final features. The commits span from April 4, 2024 to May 1, 2024, showing consistent development throughout this period. README.md:1-3
 
 Notes
 This comprehensive template provides an overview of the Maize Beta project based on the available code snippets and wiki information. The project appears to be a Flutter-based mobile game that combines maze navigation with gyroscope controls and social leaderboard features. The implementation shows sophisticated database design with both local and cloud storage, and a focus on optimizing the competitive aspects of the game.
@@ -1383,7 +1383,7 @@ Problem: Maintaining a history of deleted patients.
 Solution: Implemented SQLite triggers to automatically copy deleted patient records to a separate table. buisiness_logic_and_classes.dart:63-73
 
 12. My Role:
-Based on the git blame information, it appears that Abdul Haseeb was the primary (or sole) developer of this project, implementing all aspects from UI design to database integration. The project shows consistent commit patterns from February to June 2024, with Abdul Haseeb making all the commits. buisiness_logic_and_classes.dart:1
+ Abdul Haseeb was the primary (or sole) developer of this project, implementing all aspects from UI design to database integration. The project shows consistent commit patterns from February to June 2024, with Abdul Haseeb making all the commits. buisiness_logic_and_classes.dart:1
 
 Notes
 This template provides a comprehensive overview of the S. Sohail Hospital project based on the available codebase context. The project is a Flutter application for hospital management with SQLite for local data persistence. The implementation uses a hybrid state management approach with ChangeNotifier and StatefulWidget, with some initial setup for Riverpod that wasn't fully utilized. The project demonstrates skills in Flutter UI development, state management, database operations, and asynchronous programming.
@@ -1529,7 +1529,7 @@ Challenge 3: MobX code generation setup
 Solution: Configured build_runner and mobx_codegen to generate the necessary boilerplate code for MobX observables and actions. pubspec.yaml:47-48 mobix_buisiness_logic.g.dart:31-40
 
 12. My Role:
-Based on the git blame information, Abdul Haseeb appears to be the sole developer of this project, implementing all aspects including:
+ Abdul Haseeb was the sole developer of this project, implementing all aspects including:
 
 Core university management system
 Provider implementation
@@ -1683,7 +1683,7 @@ Challenge: Handling large datasets efficiently, especially for chart rendering.
 Solution: Implemented data processing methods to aggregate and prepare data for visualization, reducing the computational load during rendering. overall_screen.dart:46-60
 
 12. My Role:
-Based on the git blame information, it appears that Abdul Haseeb was the primary (or sole) developer of this project, implementing all aspects from UI design to business logic and database integration. main.dart:1-5
+ Abdul Haseeb was the primary (or sole) developer of this project, implementing all aspects from UI design to business logic and database integration. main.dart:1-5
 
 Notes:
 
