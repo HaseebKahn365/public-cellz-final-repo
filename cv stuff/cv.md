@@ -62,7 +62,10 @@ gantt
 
 
 
-# CellzV2Console
+<center>
+
+  # Repo 1: CellzV2Console
+</center>
 
 ## Overview
 
@@ -107,7 +110,13 @@ As sole developer, implemented:
 
 The project served as a proof-of-concept for the core game mechanics before building the full Flutter version.
 
-# Clonstify
+
+
+
+<center>
+
+# Repo 2: Clonstify
+</center >
 
 ## Project Information
 
@@ -223,7 +232,17 @@ Uses static data models from `data.dart` for playlists and tracks.
 Sole contributor: Abdul Haseeb (HaseebKahn365)  
 Implementation period: July 30-31, 2023
 
-# Dart-2024:
+
+
+
+
+
+
+
+<center>
+
+# Repo 3: Dart-2024:
+</center>
 
 ## What You Learned in the Dart_Language_Practice Repository
 
@@ -411,7 +430,14 @@ This structure allows for progressive learning, starting from core language feat
 > **Notes:**  
 > This repository is primarily focused on learning Dart language features rather than building Flutter applications. It serves as an excellent foundation for understanding the programming language that underlies Flutter development. The examples are concise and focused on demonstrating specific language features rather than building complete applications.
 
-# Data-Structures-CW (Data Structures Coursework)
+
+
+
+<center>
+
+# Repo 4: Data-Structures-CW (Data Structures Coursework)
+
+</center>
 
 ## GitHub Link
 
@@ -540,7 +566,14 @@ This template has been filled out based on the available code snippets and wiki 
 
 Since this is a C++ project focused on data structures and algorithms rather than a Flutter/Dart application, I've adapted section 7 to highlight C++ skills instead of Flutter/Dart skills as requested in the original template.
 
-# MagicCalculator
+
+
+
+
+<center>
+
+# Repo 5: MagicCalculator
+</center>
 
 ## GitHub Link
 
@@ -599,9 +632,17 @@ Inspired by classic magician's props where seemingly random calculations always 
 
 > **Note:** This app was created purely for entertainment purposes as a digital magic trick.
 
-### Repo Name:
 
-**Maize Beta**
+
+
+
+
+
+<center>
+
+# Repo 6: Maiz-Game (Gyroscope controlled)
+
+</center>
 
 ### GitHub Link:
 
@@ -798,9 +839,18 @@ This comprehensive template provides an overview of the **Maize Beta** project b
 
 The timeline information is inferred from commit dates in the provided snippets, showing development from early April to early May 2024.
 
-### Repo Name:
 
-**provider_v2**
+
+
+
+
+
+
+<center>
+
+# Repo 7: Provider_v2
+
+</center>
 
 ### GitHub Link:
 
@@ -995,9 +1045,10 @@ This comprehensive repo information is based on the SRT Simulator project, which
 
 
 
+<center>
 
-
-## 1. Repo Name:
+# Repo 8: S_Sohail_Hospital
+</center>
 **S. Sohail Hospital (s_sohail)**
 
 ## 2. GitHub Link:
@@ -1181,9 +1232,10 @@ This template provides a comprehensive overview of the S. Sohail Hospital projec
 
 
 
+<center>
 
-
-## 1. Repo Name:
+# Repo 9: State Management Demonstration
+</center>
 **state_manag (State Management Demonstration)**
 
 ## 2. GitHub Link:
@@ -1388,11 +1440,11 @@ This repository is primarily an educational project demonstrating different stat
 
 
 
+<center>
 
+# Repo 10: WorksOut
 
-## Repo Name:
-
-works_out
+</center>
 
 ## GitHub Link (optional):
 
@@ -1471,10 +1523,10 @@ The repository appears to be a personal workout tracking application developed i
 
 
 
+<center>
 
-## Comprehensive Repo Information for Workouts_V3
-
-### 1. Repo Name:
+# Repo 11: Workouts_V3
+</center>
 Workouts_V3
 
 ### 2. GitHub Link:
@@ -1680,6 +1732,159 @@ Based on the git blame information, it appears that Abdul Haseeb was the primary
 - The app demonstrates a well-structured Flutter application with cloud synchronization, local persistence, and advanced visualization features.
 
 
+
+
+
+
+
+<center>
+
+# Repo 12: Cellz Final (Currently Live)
+
+</center>
+
+**Cellz Final**
+[https://play.google.com/store/apps/details?id=com.cellz.final](https://play.google.com/store/apps/details?id=com.cellz.final)
+
+
+**Gameplay Trailer:** [https://www.youtube.com/shorts/RX07n2JUg6U](https://www.youtube.com/shorts/RX07n2JUg6U)
+
+## GitHub Link:
+(this is a private repo because this is currently in production)
+
+## Timeline & Commitment:
+**Start Date:** July 2024  
+**End Date:** May 2025  
+
+---
+
+## Project Overview:
+Cellz Final is a feature-rich puzzle game designed to provide an engaging and challenging experience for players of all ages. The game revolves around completing levels by achieving specific goals, such as collecting stars or solving puzzles within a time limit. It includes a variety of levels, animations, and sound effects to enhance the user experience.
+
+The target audience includes casual gamers and puzzle enthusiasts. The app aims to provide entertainment while improving problem-solving skills and strategic thinking. Core goals include seamless gameplay, intuitive UI, and a rewarding progression system.
+
+---
+
+## Core Functionality:
+### Internal Workflow:
+- **Screens/Pages:**  
+  The app includes multiple screens such as the Home Screen, Levels Journey, Game Play Screen, Profile Settings, and Friends Interaction.
+  
+- **Business Logic Layers:**  
+  The app uses `Provider` for state management, ensuring a clean separation between UI and business logic. Game states, user data, and level progression are managed efficiently.
+
+- **Communication Between Modules:**  
+  Modules communicate via `Provider` and `ChangeNotifier`, ensuring reactive updates across the app.
+
+- **Real-Time or Offline Behavior:**  
+  The app supports offline gameplay with local data storage using `sqflite`. Online features like leaderboards and friend interactions are synced with Firebase.
+
+- **User Data Handling:**  
+  CRUD operations are implemented for user profiles, game progress, and settings. Data is synced with Firebase for online users and stored locally for offline users.
+
+- **Error, State, Navigation, and Animations:**  
+  Errors are handled gracefully with fallback UI. Navigation is managed using `GoRouter`, and animations are implemented using `flutter_animate` for smooth transitions.
+
+---
+
+## Key Features:
+1. **Levels Journey:**  
+   A timeline-based level progression system with visual indicators for completed, current, and locked levels.
+
+2. **Custom Levels:**  
+   Players can create and play custom levels, stored locally or shared with friends.
+
+3. **Audio Integration:**  
+   Background music and sound effects enhance the gaming experience. Audio settings are customizable.
+
+4. **Friends Interaction:**  
+   Add friends, share progress, and compete on leaderboards.
+
+5. **Offline Support:**  
+   Play seamlessly without an internet connection. Data syncs when online.
+
+6. **Haptics and Animations:**  
+   Integrated haptic feedback and smooth animations for an immersive experience.
+
+---
+
+## Flutter/Dart Skills Demonstrated:
+- **State Management:**  
+  Used `Provider` for managing game states, user data, and UI updates.
+
+- **Routing:**  
+  Implemented `GoRouter` for dynamic and declarative navigation.
+
+- **Async Programming:**  
+  Used `Future` and `Stream` for handling Firebase data sync and real-time updates.
+
+- **Custom Widgets:**  
+  Designed reusable widgets like `Grid`, `CircleWidget`, and custom dialogs for modularity.
+
+- **Animations:**  
+  Leveraged `flutter_animate` for shimmer effects, transitions, and smooth UI interactions.
+
+---
+
+## Architecture & Design Decisions:
+- **Architecture Pattern:**  
+  Followed MVVM (Model-View-ViewModel) for clean separation of concerns.
+
+- **Folder Structure:**  
+  Organized into `business_logic`, `providers`, `screens`, `widgets`, and `data` folders for modularity and scalability.
+
+- **Testability:**  
+  The app is modular and testable, with clear separation between UI and logic.
+
+---
+
+## Third-Party Tools & Packages:
+1. **Firebase:**  
+   Used for authentication, Firestore database, and cloud storage.
+
+2. **sqflite:**  
+   Local database for offline support.
+
+3. **flutter_animate:**  
+   For animations like shimmer effects and transitions.
+
+4. **audioplayers:**  
+   For background music and sound effects.
+
+5. **timeline_tile:**  
+   For the Levels Journey screen.
+
+6. **carousel_slider:**  
+   For showcasing levels and features.
+
+---
+
+## Advanced Concepts:
+- **Firebase Integration:**  
+  Implemented Firebase Authentication, Firestore, and Cloud Storage for real-time data sync.
+
+- **Offline Support:**  
+  Ensured seamless gameplay with local storage and sync mechanisms.
+
+- **Haptics and Animations:**  
+  Added haptic feedback and smooth animations for an immersive experience.
+
+---
+
+## Biggest Technical Challenges & My Solutions:
+1. **Performance Issues with Audio:**  
+   Resolved by optimizing audio playback and disabling unnecessary audio streams.
+
+2. **Navigation Bugs:**  
+   Fixed by migrating to `GoRouter` for a declarative and robust navigation system.
+
+3. **Data Sync Conflicts:**  
+   Implemented conflict resolution strategies for Firebase and local data sync.
+
+---
+
+## My Role:
+I was the sole developer and designer of this project. I implemented all features, designed the UI/UX, and managed the integration of third-party tools. I also handled debugging, testing, and deployment to ensure a smooth user experience.
 
 
 
