@@ -11,26 +11,7 @@
 
 ## 🎯 Profile Summary
 
-3+ years of hands-on experience in Flutter and Dart, creating and building mobile games, productivity apps, and educational tools. I am proficient in state management using provider and learning clean architecture with bloc. I have designed algorithmic game mechanics and offline-first solutions. I am working on creating agentic apps with Gemini and Flutter, and I am also focused on mastering clean architecture in Flutter. I have a strong foundation in data structures and algorithms, which I apply to optimize app performance and user experience.
-I can easily implement the following features in Flutter apps:
-- **Firebase Authentication:** Integrated secure user authentication with email/password and social login options.
-- **Firebase Storage:** Managed user-generated content and media files with Firebase Storage.
-- **In-App Purchases:** Seamlessly integrated for unlocking premium features and content.  
-- **Ads Integration with AdMob:** Monetized the app with strategically placed ads while maintaining a user-friendly experience.  
-- **Cloud Messaging:** Enabled real-time notifications and updates using Firebase Cloud Messaging.  
-- **Local Notifications:** Implemented scheduled and instant notifications for user engagement.  
-- **Haptics:** Enhanced user experience with tactile feedback for key interactions.  
-- **Local Storage with SQFLite:** Provided robust offline data storage for user progress and settings.  
-- **Local Storage with Shared Preferences:** Enabled lightweight storage for app preferences and configurations.  
-- **Firebase Firestore:** Leveraged Firestore for real-time database operations and synchronization.  
-- **StreamBuilders with Firestore:** Dynamically updated UI components with real-time Firestore data streams.  
-- **Items Cost Management for In-App Purchases:** Efficiently managed pricing and inventory for purchasable items.  
-- **Dynamic Material Theme:** Delivered a visually appealing and customizable UI with dynamic theming.  
-- **Deep Links Integration:** Enabled seamless navigation to specific app content via deep links.  
-- **QR Code Scanner:** Integrated QR code scanning for in-game friends making.
-- **Gyroscope Control:** Implemented gyroscope-based controls for immersive gameplay experiences.
-- **Audio and Video Player:** Integrated media playback features for enhanced user engagement.
-- **Animations with Flutter Animate:** Utilized the Flutter Animate package for smooth and engaging animations.
+Innovative Flutter and Dart developer with a rich background in architecting mobile games, agentic systems, productivity tools, and simulation-based educational apps. Demonstrated expertise in advanced state management, clean architecture, AI-driven game logic, and offline-first mobile experiences.
 
 ---
 
@@ -69,7 +50,7 @@ gantt
   dateFormat  YYYY-MM-DD
   axisFormat %b %Y
   
-  CellzV2 Console        :active, a2, 2023-09-02, 10d
+  CellzV2 Console        :active, a2, 2023-09-02, 10d, click href "#repo1", "View CellzV2 Console details"
   Clonstify              :active, a4, 2023-07-30, 2d
   MagicCalculator        :active, a5, 2023-08-04, 4d
   SRT Simulator          :active, b1, 2023-12-02, 4d
@@ -87,7 +68,7 @@ gantt
 ## 📺 YouTube Demos
 
 - **Cellz Final:** [https://www.youtube.com/shorts/j5SUzB2qKn4](https://www.youtube.com/shorts/j5SUzB2qKn4)
-- **Maize Beta:** [https://www.youtube.com/watch?v=FC3Ki9xOpis&feature=youtu.be](https://www.youtube.com/watch?v=FC3Ki9xOpis&feature=youtu.be)
+- **Maize Beta:** [https://studio.youtube.com/video/FC3Ki9xOpis/edit](https://studio.youtube.com/video/FC3Ki9xOpis/edit)
 - **AI_ES:** [https://www.youtube.com/shorts/llRoVSH5-y4](https://www.youtube.com/shorts/llRoVSH5-y4)
              [Practical Demo of AI Assistant](https://youtu.be/TA5H0k3W5yM?si=AWWgRXFfew2WuGQf)
              [https://youtu.be/TA5H0k3W5yM?si=AWWgRXFfew2WuGQf](https://youtu.be/TA5H0k3W5yM?si=AWWgRXFfew2WuGQf)
@@ -95,7 +76,7 @@ gantt
 
 
 
-<center>
+<center id="repo1">
 
   # Repo 1: CellzV2Console
 </center>
@@ -1780,14 +1761,10 @@ Based on the git blame information, it appears that Abdul Haseeb was the primary
 [https://play.google.com/store/apps/details?id=com.cellz.final](https://play.google.com/store/apps/details?id=com.cellz.final)
 
 
-
 **Gameplay Trailer:** [https://www.youtube.com/shorts/RX07n2JUg6U](https://www.youtube.com/shorts/RX07n2JUg6U)
 
 ## GitHub Link:
 (this is a private repo because this is currently in production)
-
-## Youtube Link:
-[https://www.youtube.com/shorts/j5SUzB2qKn4](https://www.youtube.com/shorts/j5SUzB2qKn4)
 
 ## Timeline & Commitment:
 **Start Date:** July 2024  
@@ -1821,23 +1798,6 @@ The target audience includes casual gamers and puzzle enthusiasts. The app aims 
 
 - **Error, State, Navigation, and Animations:**  
   Errors are handled gracefully with fallback UI. Navigation is managed using `GoRouter`, and animations are implemented using `flutter_animate` for smooth transitions.
-
-### Key Features:
-- **In-App Purchases:** Seamlessly integrated for unlocking premium features and content.  
-- **Ads Integration with AdMob:** Monetized the app with strategically placed ads while maintaining a user-friendly experience.  
-- **Cloud Messaging:** Enabled real-time notifications and updates using Firebase Cloud Messaging.  
-- **Local Notifications:** Implemented scheduled and instant notifications for user engagement.  
-- **Haptics:** Enhanced user experience with tactile feedback for key interactions.  
-- **Local Storage with SQFLite:** Provided robust offline data storage for user progress and settings.  
-- **Local Storage with Shared Preferences:** Enabled lightweight storage for app preferences and configurations.  
-- **Firebase Firestore:** Leveraged Firestore for real-time database operations and synchronization.  
-- **StreamBuilders with Firestore:** Dynamically updated UI components with real-time Firestore data streams.  
-- **Items Cost Management for In-App Purchases:** Efficiently managed pricing and inventory for purchasable items.  
-- **Dynamic Material Theme:** Delivered a visually appealing and customizable UI with dynamic theming.  
-- **Deep Links Integration:** Enabled seamless navigation to specific app content via deep links.  
-- **QR Code Scanner:** Integrated QR code scanning for in-game friends making.
-
-
 
 ---
 
